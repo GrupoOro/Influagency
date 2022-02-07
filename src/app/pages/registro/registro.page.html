@@ -23,11 +23,11 @@
                         </ion-item>
 
                         <ion-item style="padding-bottom: 5px;">
-                            <ion-input type="email" placeholder="Email" name="email"></ion-input>
+                            <ion-input #email required type="email" placeholder="Email" name="email"></ion-input>
                         </ion-item>
 
                         <ion-item style="padding-bottom: 5px;">
-                            <ion-input type="password" placeholder="Password" name="password"></ion-input>
+                            <ion-input #password required type="password" placeholder="Password" name="password"></ion-input>
                         </ion-item>
 
                         <ion-item style="padding-bottom: 5px;">
@@ -38,7 +38,7 @@
                             <ion-input type="number" placeholder="Cód.Postal" name="cod-postal"></ion-input>
                         </ion-item>
 
-                        <ion-button (click)="login()" expand="block" shape="round" class="inicio" style="padding-bottom: 10px; height: 60px;">SIGNUP</ion-button>
+                        <ion-button (click)="register(email, password)" expand="block" shape="round" class="inicio" style="padding-bottom: 10px; height: 60px;">SIGNUP</ion-button>
 
                         <div>
                             <ion-label>O regístrate con</ion-label>
