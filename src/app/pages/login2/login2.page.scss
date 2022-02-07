@@ -1,0 +1,31 @@
+ion-content {
+    --background: url("/assets/login-background2.png") center center;
+}
+
+ion-button.inicio {
+    --background: #f8b133;
+    --background-activated: #f8b133;
+    --background-focused: #f8b133;
+    --background-hover: #f8b133;
+    --color: #ffffff;
+}
+
+ion-button.rrss {
+    --background: #162133;
+    --background-activated: #162133;
+    --background-focused: #162133;
+    --background-hover: #162133;
+    --color: #ffffff;
+}
+
+ion-button.inscribir {
+    --background: #ffff;
+    --background-activated: #ffff;
+    --background-focused: #ffff;
+    --background-hover: #ffff;
+    --border-color: #162133;
+    --color: #162133;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

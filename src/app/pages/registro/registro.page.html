@@ -1,0 +1,69 @@
+<ion-content class="ion-text-center">
+    <form>
+        <div style="padding-left: 10px; padding-right: 10px; ">
+            <img src="/assets/influagency-sin-punto.png" />
+        </div>
+        <ion-row>
+            <ion-col>
+                <ion-card style="height: 570px; border-radius: 25px; box-shadow: 2px 2px 10px #666;">
+                    <ion-card-header>
+                        <ion-card-title class="ion-text-center">
+                            <h1 style="color: #162133;"><b>SignUp</b></h1>
+                        </ion-card-title>
+                    </ion-card-header>
+
+                    <ion-card-content>
+
+                        <ion-item style="padding-bottom: 5px;">
+                            <ion-input type="text" placeholder="Nombre" name="nombre"></ion-input>
+                        </ion-item>
+
+                        <ion-item style="padding-bottom: 5px;">
+                            <ion-input type="text" placeholder="Apellidos" name="apellidos"></ion-input>
+                        </ion-item>
+
+                        <ion-item style="padding-bottom: 5px;">
+                            <ion-input type="email" placeholder="Email" name="email"></ion-input>
+                        </ion-item>
+
+                        <ion-item style="padding-bottom: 5px;">
+                            <ion-input type="password" placeholder="Password" name="password"></ion-input>
+                        </ion-item>
+
+                        <ion-item style="padding-bottom: 5px;">
+                            <ion-input type="tel" maxkength="9" placeholder="Teléfono" name="telefono"></ion-input>
+                        </ion-item>
+
+                        <ion-item style="padding-bottom: 15px;">
+                            <ion-input type="number" placeholder="Cód.Postal" name="cod-postal"></ion-input>
+                        </ion-item>
+
+                        <ion-button (click)="login()" expand="block" shape="round" class="inicio" style="padding-bottom: 10px; height: 60px;">SIGNUP</ion-button>
+
+                        <div>
+                            <ion-label>O regístrate con</ion-label>
+                        </div>
+
+                        <ion-row>
+                            <ion-col size="12">
+                                <ion-button shape="round " class="rrss">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </ion-button>
+                                <ion-button shape="round " class="rrss">
+                                    <ion-icon name="logo-google"></ion-icon>
+                                </ion-button>
+                                <ion-button shape="round " class="rrss">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </ion-button>
+                            </ion-col>
+                        </ion-row>
+
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+        <ion-button expand="block" shape="round" fill="outline" class="inscribir" routerLink="/login">SIGN IN</ion-button>
+
+    </form>
+</ion-content>
