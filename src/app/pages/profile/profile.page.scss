@@ -1,0 +1,22 @@
+.yellowBack {
+    background-color: #f8b133;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+ion-toolbar {
+    --background: #f8b133;
+    --border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ion-item {
+    margin-bottom: 15px;
+}
