@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { AccountPage } from './pages/account/account.page';
 
 const routes: Routes = [
   {
@@ -26,9 +27,10 @@ const routes: Routes = [
   {
     path: 'login2',
     loadChildren: () => import('./pages/login2/login2.module').then( m => m.Login2PageModule)
-  },  {
-    path: 'profile',
-    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'account',
+    loadChildren: () => import('./pages/account/account.module').then( m => m.AccountPageModule)
   },
 
 ];
